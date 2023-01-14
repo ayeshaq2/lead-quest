@@ -6,7 +6,7 @@ export default function Int(){
     return (
 
         <div className='int--body'>
-            <section className='int--section'>speech to text</section>
+            <section className='int--section'><h5 className='int--question'>speec</h5></section>
             <button className='start--btn'> Start </button>
         </div>
 
