@@ -5,7 +5,8 @@ export default function Int(){
     return (
 
         <nav>
-            <h5>question goes here</h5>
+            <section className='int--section'>speech to text</section>
+            <button className='start--btn'>Start</button>
         </nav>
 
 
