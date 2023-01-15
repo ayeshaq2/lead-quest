@@ -1,6 +1,3 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import {Buffer} from 'buffer';
 
 export function generateResult(){
   const API_KEY = 'nWTE0Y96tMf1zqDYfntwZs1IzibO1YA7jpmNPReI'; //replace with your own api key here 
@@ -21,23 +18,4 @@ export function generateResult(){
     });
     console.log(`Prediction: ${response.body.generations[0].text}`);
   })();
-}
-
-export default function Int(){
-
-    return (
-
-        <div className='int--body'>
-            <section className='int--section'><h5 className='int--question' > You have been assigned the task of developing a new web-based application for a client. However, the client is unhappy with the progress of the project and has asked for a meeting to discuss the issues. Your task is to communicate the client's concerns and come up with a solution that meets their needs, while staying within the budget and timeline requirements. Specifically, you need to reduce the timeline by 25%, redesign the user interface, and stay within the initial budget. You must present a convincing solution to the client during the meeting to make them feel that their concerns have been taken into consideration. </h5>
-            
-            <input className='text-input' type="text" id="name" name="name" minlength="4"  size="10"></input>
-            <button className='start--btn' onClick={generateResult}> Start 
-            
-            </button></section>
-            
-        </div>
-
-
-
-    )
 }
