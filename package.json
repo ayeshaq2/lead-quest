@@ -1,5 +1,11 @@
 {
   "dependencies": {
-    "react-router-dom": "^6.6.2"
+    "buffer": "^6.0.3",
+    "cohere-ai": "^5.0.2",
+    "react-hook-speech-to-text": "^0.8.0",
+    "stream-browserify": "^3.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.46.0"
   }
 }
